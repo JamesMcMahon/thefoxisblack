@@ -1,3 +1,4 @@
 *.pyc
 .DS_Store
 fox_backgrounds/*.jpg
+/ve/
