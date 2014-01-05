@@ -2,13 +2,13 @@
 
 ![Sample Image][image]
 
-## Desktop Wallpaper Project
+### Desktop Wallpaper Project
 
 The lovely folks over at [The Fox is Black][thefoxisblack] have been releasing a treasure trove of awesome desktop designs as a part of the Desktop Wallpaper Project. I found the webpage to be a little slow to load and there is unfortunately no way to download all backgrounds as a bundle. I wrote this little script to grab all the background in 1400x900.
 
 You can find [gleitz's][gleitz] [entire dump at this link][dump].
 
-### My Fork
+#### My Fork
 
 I added some features I missed i.e. downloading only new wallpapers, and some prettier prints.
 
