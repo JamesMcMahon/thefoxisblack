@@ -5,7 +5,7 @@ import requests
 
 from BeautifulSoup import BeautifulSoup as bs
 
-MAX_PAGES = 1
+MAX_PAGES = 50
 SAVE_DIR = 'wallpapers'
 RESOLUTION = '1280x800'
 
