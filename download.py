@@ -50,4 +50,7 @@ def get_images_from_page(url, path):
 
 
 if __name__ == '__main__':
-    print '\nDownloaded %d new wallpapers.' % get_backgrounds()
+    c = get_backgrounds()
+    print '\n%s' % (lambda c: 'Downloaded %d new wallpaper%s.' % (
+        c, (lambda c: 's' if c>1 else '')(c))
+        if c>0 else 'No new wallpapers were downloaded.')(c)
