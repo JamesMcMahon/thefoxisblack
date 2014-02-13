@@ -31,6 +31,7 @@ def get_backgrounds():
     try:
         c = 0
         for page in count(START_PAGE):
+            print 'Page %d' % page
             downloaded, carry_on = get_images_from_page(
                 'http://www.thefoxisblack.com/category/the-desktop-wallpaper-project/page/%s/' % page,
             session, pattern, path)
@@ -59,14 +60,14 @@ def get_images_from_page(url, session, pattern, path):
             exists = os.path.isfile(save_to)
 
             if STOP_IF_EXISTS and exists:
-                print "%s already downloaded, stopping." % wallpaper
+                print "\t%s already downloaded, stopping." % wallpaper
                 return c, False
             elif not exists:
                 response = session.get(href)
                 with open(save_to, 'wb') as f:
                     f.write(response.content)
                 c += 1
-                print wallpaper
+                print '\t%s' % wallpaper
 
         sleep(2)
 
