@@ -10,7 +10,7 @@ You can find [gleitz's][gleitz] [entire dump at this link][dump].
 
 #### My Fork
 
-I added some features I missed i.e. downloading only new wallpapers, and some prettier prints.
+I added some features I missed: Downloading only new wallpapers, in a single session, and stopping upon reaching an empty page. Also added some prettier prints.
 
 [image]: https://dl.dropboxusercontent.com/u/101688/website/img/fox_black_with_honor.png
 [thefoxisblack]: http://thefoxisblack.com/category/the-desktop-wallpaper-project/
