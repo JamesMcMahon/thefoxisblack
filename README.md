@@ -12,7 +12,7 @@ You can find [gleitz's][gleitz] [entire dump at this link][dump].
 
 I added some features I missed: Downloading only new wallpapers, in a single session, and stopping upon reaching an empty page. Also added some prettier prints.
 
-[image]: https://dl.dropboxusercontent.com/u/101688/website/img/fox_black_with_honor.png
+[image]: http://thefoxisblack.com/dwpimages/reyortega-1280x800.jpg
 [thefoxisblack]: http://thefoxisblack.com/category/the-desktop-wallpaper-project/
 [gleitz]: http://github.com/gleitz/blackfox/
 [dump]: https://dl.dropbox.com/u/101688/website/misc/fox_backgrounds.zip
